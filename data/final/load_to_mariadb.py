@@ -15,7 +15,7 @@ from pymysql.cursors import DictCursor
 # ═══════════════════════════════════════════════
 HOST = "localhost"
 USER = "root"
-PASSWORD = "10022001"
+PASSWORD = "*******"
 DATABASE = "test_nova_DB"
 
 DATASETS_DIR = Path("etkala_datasets")
