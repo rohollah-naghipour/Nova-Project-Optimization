@@ -15,7 +15,7 @@ from pymysql.cursors import DictCursor
 # ═══════════════════════════════════════════════
 HOST = "localhost"
 USER = "root"
-PASSWORD = "*******"
+PASSWORD = "************"
 DATABASE = "test_nova_DB"
 
 DATASETS_DIR = Path("etkala_datasets")
@@ -238,6 +238,7 @@ def main():
 
     finally:
         conn.close()
+
 
 
 if __name__ == "__main__":
